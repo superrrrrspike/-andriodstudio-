@@ -1,0 +1,32 @@
+[versions]
+agp = "8.3.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+apache = "32"
+apacheJarResourceBundle = "1.4"
+commonsBuildPlugin = "1.14.0"
+gson = "2.11.0"
+composePreviewRenderer = "0.0.1-alpha01"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+apache = { group = "org.apache", name = "apache", version.ref = "apache" }
+apache-jar-resource-bundle = { group = "org.apache", name = "apache-jar-resource-bundle", version.ref = "apacheJarResourceBundle" }
+commons-build-plugin = { group = "org.apache.commons", name = "commons-build-plugin", version.ref = "commonsBuildPlugin" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+compose-preview-renderer = { group = "com.android.tools.compose", name = "compose-preview-renderer", version.ref = "composePreviewRenderer" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
